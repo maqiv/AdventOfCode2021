@@ -1,6 +1,6 @@
 # Advent Of Code 2021
 
-[![.NET](https://github.com/maqiv/AdventOfCode2021/actions/workflows/main.yml/badge.svg)](https://github.com/maqiv/AdventOfCode2021/actions/workflows/main.yml)
+[![Build and Test](https://github.com/maqiv/AdventOfCode2021/actions/workflows/main.yml/badge.svg)](https://github.com/maqiv/AdventOfCode2021/actions/workflows/main.yml)
 
 This repository contains the code from my participation in the [Advent Of Code 2021](https://adventofcode.com/2021) challenge.
 This time I decided to solve the challenge puzzles in [F#](https://fsharp.org/).
