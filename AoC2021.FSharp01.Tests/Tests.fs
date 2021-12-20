@@ -36,7 +36,7 @@ type TestClass() =
     [<DataTestMethod>]
     [<DataRow(@"sample_data", 5)>]
     member this.MeasureSlidingDepth_ListWithMultipleElements_RandomData(dataFile: string, expectedCount: int) =
-        let data = AoCHelper.loadData dataFile
+        let data = AoCHelper.loadIntData dataFile
         let count = AoCModule.measureSlidingDepth data 0
         Assert.AreEqual(expectedCount, count)
 

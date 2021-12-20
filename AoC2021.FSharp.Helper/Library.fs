@@ -7,7 +7,14 @@ module AoCHelper =
 
     let readFile filePath =
         Array.toList (File.ReadAllLines filePath)
-
+    
     let loadData filePath =
         readFile filePath
+
+    let loadIntData filePath =
+        loadData filePath
         |> List.map Int32.Parse
+    
+    let loadStringData filePath =
+        loadData filePath
+        |> List.map (fun x -> x.Trim())

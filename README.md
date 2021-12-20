@@ -13,3 +13,4 @@ This time I decided to solve the challenge puzzles in [F#](https://fsharp.org/).
 ## Day 02
 
 * [Task description](https://adventofcode.com/2021/day/2)
+* [Solution](./AoC2021.FSharp02/)

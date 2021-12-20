@@ -17,7 +17,7 @@ module AoCModule =
 
     [<EntryPoint>]
     let main argv =
-        let data = AoCHelper.loadData @".\input"
+        let data = AoCHelper.loadIntData @".\input"
 
         let count = measureDepth data 0
         printfn $"Result for quest 0: {count}"
