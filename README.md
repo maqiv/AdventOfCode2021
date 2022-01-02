@@ -9,8 +9,16 @@ This time I decided to solve the challenge puzzles in [F#](https://fsharp.org/).
 
 * [Task description](https://adventofcode.com/2021/day/1)
 * [Solution](./AoC2021.FSharp01/)
+* [Tests](./AoC2021.FSharp01.Test/)
 
 ## Day 02
 
 * [Task description](https://adventofcode.com/2021/day/2)
 * [Solution](./AoC2021.FSharp02/)
+* [Tests](./AoC2021.FSharp02.Test/)
+
+## Day 03
+
+* [Task description](https://adventofcode.com/2021/day/3)
+* [Solution](./AoC2021.FSharp03/)
+* [Tests](./AoC2021.FSharp03.Test/) (incomplete(!))
